@@ -49,7 +49,7 @@ display: block;
   cursor: pointer;
   /* position: relative; */
   top: 1px;
-  width: calc(99.33333%/4);
+  width: calc(99.32333%/4);
   background: #da2304;
   height: 46px;
   text-align: center;
@@ -84,23 +84,26 @@ display: block;
 
 }
 
-@media only screen and (min-width: 850px) and (min-width: 960px) {
+@media only screen and (min-width: 851px) and (min-width: 960px) {
 
 .tabs  {
   max-width: 1000px;
 }
+  .tabs>label {
+  width: calc(99.32333%/4);
+}
 }
 
-@media only screen and (min-width: 500px) and (max-width: 850px) {
+@media only screen and (min-width: 501px) and (max-width: 850px) {
 
 .tabs>label {
-  width: calc(99.33333%/2);
+  width: calc(99.32333%/2);
 }
 }
 
 @media only screen and (max-width: 500px) {
 
 .tabs>label {
-  width: calc(99.33333%/1);
+  width: calc(99.32333%/1);
 }
 }
